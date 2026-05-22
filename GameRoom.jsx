@@ -26,7 +26,7 @@ import { Leaderboard }  from './Leaderboard';
 import { QuestionCard } from './QuestionCard';
 import { SabotageHUD }  from './SabotageHUD';
 
-const SERVER_URL = 'http://localhost:4000';
+const SERVER_URL = 'https://stream-sabotage.onrender.com';
 
 export function GameRoom() {
   const { gameState, emit, socketId } = useSocket(SERVER_URL);
